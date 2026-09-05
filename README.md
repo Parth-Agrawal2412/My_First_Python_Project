@@ -40,27 +40,6 @@ To check your installed Python version, run:
 python --version
 ```
 
----
-
-## 🚀 Getting Started
-
-### 1. Clone the Repository
-```bash
-git clone https://github.com/your-username/python-mini-apps.git
-cd python-mini-apps
-```
-
-### 2. Run the Suite
-You can run the interactive launcher to access all tools in one menu:
-```bash
-python main.py
-```
-
-Alternatively, you can run any tool directly as an individual script:
-```bash
-python calculator.py
-python password_generator.py
-```
 
 ---
 
@@ -108,17 +87,17 @@ Final Amount: 378.00
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/your-username/python-mini-apps/issues).
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/Parth-Agrawal2412/My_First_Python_Project/issues).
 
 ---
 
 ## 👤 Author
 
 **Parth Agrawal**
-- GitHub: [@your-username](https://github.com/your-username)
+- GitHub: https://github.com/Parth-Agrawal2412
 
 ---
 
 ## 📜 License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is open source and available under the [CCO License](LICENSE).
