@@ -252,41 +252,38 @@ def salary_finder():
 
 print("Welcome to the Ultimate program made by Parth Agrawal")
 while True:
-    choice2 = input("\nWant to run program (y or n): ").lower()
-    if choice2 == "y":
-        print("""
-        1. Calculator
-        2. Acronym Generator
-        3. Bill Generator
-        4. Mini Expense Tracker
-        5. Password Generator
-        6. Password Strength Checker
-        7. Character Counter
-        8. Word Counter
-        9. Salary Finder
-        """)
-        choice = input("Enter your choice (1 to 9 or 'stop' to exit): ").lower()
-        if choice == "stop":
-            break
-        elif choice == "1":
-            calculator()
-        elif choice == "2":
-            acronym_generator()
-        elif choice == "3":
-            bill_generator()
-        elif choice == "4":
-            mini_expense_tracker()
-        elif choice == "5":
-            password_generator()
-        elif choice == "6":
-            password_strength_checker()
-        elif choice == "7":
-            character_counter()
-        elif choice == "8":
-            word_counter()
-        elif choice == "9":
-            salary_finder()
-        else:
-            print("Invalid choice, please try again.")
-    else:
+
+    print("""
+    1. Calculator
+    2. Acronym Generator
+    3. Bill Generator
+    4. Mini Expense Tracker
+    5. Password Generator
+    6. Password Strength Checker
+    7. Character Counter
+    8. Word Counter
+    9. Salary Finder
+    """)
+    choice = input("Enter your choice (1 to 9 or 'stop' to exit): ").lower()
+    if choice == "stop":
         break
+    elif choice == "1":
+        calculator()
+    elif choice == "2":
+        acronym_generator()
+    elif choice == "3":
+        bill_generator()
+    elif choice == "4":
+        mini_expense_tracker()
+    elif choice == "5":
+        password_generator()
+    elif choice == "6":
+        password_strength_checker()
+    elif choice == "7":
+        character_counter()
+    elif choice == "8":
+        word_counter()
+    elif choice == "9":
+        salary_finder()
+    else:
+        print("Invalid choice, please try again.")
